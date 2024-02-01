@@ -16,12 +16,10 @@ ARIA Roles are crucial for conveying essential information to assistive technolo
 
 ARIA is a powerful tool that significantly improves web accessibility, making it especially valuable for teams dealing with semantic HTML challenges or constructing complex application interfaces. ARIA Roles offer essential tools to ensure website accessibility for all users.
 
-Formatting HTML
-The significance of extra spaces and indentations depends on elements like <pre>, <code>, or <textarea>, as well as CSS modifications to whitespace handling. In most cases, browsers typically do not prioritize more than a single space.
+Formatting HTML <pre>, <code>, and <textarea> elements, as well as CSS changes to whitespace handling, determine the meaning of additional spaces and indentations. Web browsers usually only give priority to one space at a time.
 
-Programmers enhance code readability by adding comments in HTML, inserted using "<!--" at the beginning and "-->" at the end. Browser disregard comments, allowing for clear identification of commented-out code and preventing confusion when it doesn't function as expected.
-
-HTML is composed of various elements, with most having both opening and closing tags. Newer elements, such as the video element, consistently employ both tags. However, some older elements lack a closing tag
+By adding comments to HTML code, programmers can improve readability. Comments are inserted with "<!--" at the beginning and "-->" at the end. When code is commented out, it can be easily identified by the browser, and when it doesn't work as intended, confusion can be avoided.
+HTML is composed of various elements, with most having both opening and closing tags. Newer elements, such as the video element, consistently employ both tags. However, some older elements lack a closing tag.
 
 Using non-breaking spaces in HTML
 Non-breaking space in text allows lines to break and words to remain intact, while browsers search for suitable spaces with gaps between words for full sentences.
